@@ -1,6 +1,6 @@
 # IPMix
 
-The office repository of [IPMix: Label-Preserving Data Augmentation Method for Training Robust Classifiers](https://arxiv.org/abs/2310.04780)
+The offical repository of [IPMix: Label-Preserving Data Augmentation Method for Training Robust Classifiers](https://arxiv.org/abs/2310.04780)
 by Zhenglin Huang,Xianan Bao,Na Zhang,Qingqi Zhang,Xiaomei Tu,Biao Wu, and Xi Yang
 
 Thirty-seventh Conference on Neural Information Processing Systems (Neurips2023)
