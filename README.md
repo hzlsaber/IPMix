@@ -1,7 +1,9 @@
 # IPMix
 
-The office repository of "IPMix: Label-Preserving Data Augmentation Method for Training Robust Classifiers"
+The office repository of [IPMix: Label-Preserving Data Augmentation Method for Training Robust Classifiers](https://arxiv.org/abs/2310.04780)
 by Zhenglin Huang,Xianan Bao,Na Zhang,Qingqi Zhang,Xiaomei Tu,Biao Wu, and Xi Yang
+
+Thirty-seventh Conference on Neural Information Processing Systems (Neurips2023)
 
  IPMix is a simple data augmentation approach to improve robustness without hurting clean accuracy. IPMix integrates three levels of data augmentation (image-level, patch-level, and pixel-level) into a coherent and label-preserving technique to increase the diversity of training data with limited computational overhead. 
 ![](https://github.com/hzlsaber/IPMix/blob/main/images/IPMix.png)
@@ -37,18 +39,18 @@ python imagenet.py \
 
 # Mixing-set
 
-You can download the IPMix set used in the paper here. 
+You can download the IPMix set used in the paper [here](https://drive.google.com/drive/folders/1ctf9uVU5zNa4_42jTh2XrePIrjP6PJYf). 
 
 Since IPMix is insensitive to mixing sets change, you can use any unlabeled synthetic pictures (e.g., diffusion images) freely. If you tried IPMix with other mixing sets, please feel free to let me know the results, regardless of positive or negative. Many thanks!
 
 
 # Pretrained Models
 
-Weights for CIFAR-10/100 classifier (Wrn40-4/Wrn28-10/ResNet-18/ResNeXt-29) trained with IPMix are available here.
+Weights for CIFAR-10/100 classifier (Wrn40-4/Wrn28-10/ResNet-18/ResNeXt-29) trained with IPMix are available [here](https://drive.google.com/drive/folders/1HIgaBGpUi0UEapxCjqykaeS4W3VbRhcH).
 
-Weights for a ResNet-50 classifier trained with IPMix for 180 epoches is available here.
+Weights for a ResNet-50 classifier trained with IPMix for 180 epoches is available [here](https://drive.google.com/drive/folders/1qmMf5fKlH2xIhWoLNysnbwPv482lfJ2h).
 
 # Acknowledgments
 
-Our code is developed based on [AugMix](https://github.com/google-research/augmix/tree/master) and [PixMix](https://github.com/andyzoujm/pixmix).
+Our code is developed based on [AugMix](https://github.com/google-research/augmix/tree/master) and [PixMix](https://github.com/andyzoujm/pixmix). Many thanks to their inspired works!
 
