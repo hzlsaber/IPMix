@@ -470,7 +470,7 @@ def main():
 
     if not os.path.exists(args.save):
         os.makedirs(args.save)
-    elif args.save != 'snapshots':
+    elif args.save != 'result':
         raise Exception('%s exists' % args.save)
     if not os.path.isdir(args.save):
         raise Exception('%s is not a dir' % args.save)
