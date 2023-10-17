@@ -83,7 +83,7 @@ parser.add_argument(
     '--k',
     default=3,
     type=int,
-    help='Number of augmentation chains to mix per augmented example,chosen from Patch and Pixel ')
+    help='Number of augmentation chains to mix per augmented example,chosen from P and IMG ')
 parser.add_argument(
     '--t',
     default=3,
