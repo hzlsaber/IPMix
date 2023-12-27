@@ -39,7 +39,7 @@ python imagenet.py \
 
 # Mixing-set
 
-You can download the IPMix set used in the paper. 
+You can download the IPMix set used in the paper [here](https://drive.google.com/drive/folders/19xNHNGFv-OChaCazBdMOrwdGRsXy2LPs?usp=drive_link).
 
 Since IPMix is insensitive to mixing sets change, you can use any unlabeled synthetic pictures (e.g., diffusion images) freely. If you tried IPMix with other mixing sets, please feel free to let me know the results, regardless of positive or negative. Many thanks!
 
