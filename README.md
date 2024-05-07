@@ -17,6 +17,8 @@ proposed that there is a trade-off between accuracy and robustness, we propose I
 ![](https://github.com/hzlsaber/IPMix/blob/main/images/performance.png)
 # Usage
 
+JSD loss: This code utilizes JSD loss, which was instrumental in achieving the enhanced performance metrics reported in our paper, although its use was not explicitly highlighted. We have found that JSD loss significantly improves model accuracy and safety metrics, at the cost of extended training time. The option to use JSD loss is provided as a flag in our codebase, allowing users to choose whether to employ it based on their preference for better performance versus longer training duration.
+
 CIFAR:
 ```
 python cifar.py \
